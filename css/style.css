@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;}
+
+header{
+    background-color: #24282b ;
+    height: 80px;
+    border-bottom: 5px solid #1293d4;
+}
+header h2{
+    color: #FFF;
+    float: left;
+    display: flex;
+    margin: 20px 0 20px 100px;
+
+}
+header p{
+    color: #1293d4;
+    margin-left: 10px;
+}
+
+nav{
+    padding: 35px 50px 0 0;
+    font-size: 15px;
+    float: right;
+}
+
+ul li{
+    display: inline;
+    padding: 0 5px;
+}
+ul li a{
+    text-decoration: none;
+    color: #FFF;
+    padding: 6px 10px;
+}
+
+
+
+footer{
+    text-align: center;
+    background-color: #1293d4;
+    height: 80px;
+    color: #FFF;
+    padding: 40px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+section{
+    float: left;
+    width: 52%;
+    margin: 45px;
+    margin-left: 200px;
+}
+section p{
+    padding: 35px 20px;
+}
+
+section img{
+    margin-top: 10px;
+    
+}
+
+aside{
+    float: right;
+    width: 380px;
+    height: 280px;
+    margin: 45px 60px 0 0;
+    background-color: #35424a;
+    color: #FFF;
+    margin-right: 240px;
+    padding: 40px 20px;
+}
+
+
+/* CLASES */
+
+.clear{
+    clear: both;
+}
+
+.pag1_1{
+    height: 350px;
+    color: #FFF;
+    font-size: large;
+    text-align: center;
+    padding: 50px 80px 70px;
+    background-image: url(../image/cabecera.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pag1_1 h1{
+    margin: 50px;
+}
+
+.pag1_2{
+    background-color: #24282b ;
+    height: 80px;
+    color: #FFF;
+}
+
+
+ .pag1_2 input{
+    padding: 6px;
+
+ }
+
+input[type="submit"]{
+    background-color: #e8491d;
+    color: #FFF;
+ }
+
+ .pag1_2 h3{
+    float: left;
+    margin-left: 400px;
+    margin-top: 30px;
+ }
+
+ .pag1_3{
+    background-color: #FFF;
+    color: black;
+    margin: 41px 0;
+ }
+
+.pag1_3{
+    display: flex;
+    gap: 10rem;
+    text-align: center;
+    padding-top: 30px;
+    justify-content: center;
+}
+
+.ColorFondo{
+    background-color: #35424a;
+    color: #FFF;
+    text-align: left;
+}
+
+.cajas{
+    background-color: #e6e6e6;
+    margin: 5px 0;
+    padding: 30px;
+    height: 190px;
+
+}
+.active{
+    color: #1293d4;
+}
+
+/* IDENTIFICADORES */
+
+#formCont input{
+    width: 800px;
+	padding: 10px;
+    margin: 5px;
+}
+#formulario1{
+    padding: 20px 350px 20px 0;
+    float: right;
+    align-items: center;
+}
+#formulario1 input{
+    padding: 4px 18px;
+    
+}
+#formulario2{
+    float: left;
+    width: 52%;
+    margin: 30px;
+    margin-left: 250px;
+}
+#mapa{
+    background-image: url(../image/mapaGoogle.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 0;
+}
+
